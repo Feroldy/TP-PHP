@@ -2,7 +2,6 @@
 require_once 'Ninja.php';
 class NinjaSensoriel extends Ninja
 {
-    #[Override]
     public function __construct(string $nom, string $clan, string $rang, int $chakra, string $technique)
     {
         parent::__construct($nom, $clan, $rang, $chakra, $technique);
